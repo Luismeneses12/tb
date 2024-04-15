@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+body {text-align: center;}
+.divide{
+    width: auto;
+    height: auto;
+    border: 10px;
+    padding: 10px;
+    margin: 10px;
+    border-color: gray;
+    background-color:whitesmoke;
+}
+
+.titulo{
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tabla{
+    border-color: gray;
+    border: 10px;
+    padding: 10px;
+    text-align:center;
+    display:inline-block;
+    border-color: gray;
+
+
+}

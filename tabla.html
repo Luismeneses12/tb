@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabla y formulario</title>
+    <link rel="stylesheet" href="./tabla.css">
+</head>
+<body>
+    <header class="titulo"> <H1>tabla de formulario</H1></header>
+    <div class="divide">
+    <table class="tabla">
+        <form action="tabla.html">
+            <tr>
+            <td>
+            <label for="nombre">
+                <span>cual tu nombre </span>
+                <input type="text" id="nombre" placeholder="escribe tu nombre ">
+                <input type="submit" id="genero"  value=" enviar ">
+            </label>
+            </td>
+           </tr>
+           <tr>
+            <td>
+            <label for="apellido">
+                <span>cual es tu apellido</span>
+                <input type="text" id="apellido" placeholder="escribe tu apellido  ">
+                <input type="submit" id="genero"  value=" enviar ">
+            </label>
+            </td>
+           </tr>
+           <tr>
+            <td>
+            <label for="genero ">
+                <span>genero </span>
+                <input type="checkbox" id="genero " placeholder="que genero   ">
+                <input type="checkbox " id="genero " placeholder="hombre ">
+                <input type="checkbox" id="genero " placeholder="que genero   ">
+                <input type="checkbox " id="genero " placeholder="mujer ">
+                <input type="submit" id="genero"  value=" enviar ">
+            </label>
+            </td>
+           </tr> 
+           <tr>
+            <td>          
+           <label for="terms">Acepto los términos y condiciones</label>
+           <input type="radio" id="terms" name="terms" value="">
+           <input type="submit" value="Enviar">
+            </td>
+           </tr>
+           <tr>
+            <dt>
+                <label for="desdea">decesas taner infromacion  de novedades </label>
+                <input type="text" id="desdea" value="infromacion">
+                <input type="submit" value="enviar">
+            </dt>
+           </tr>
+           <tr>
+            <dt>
+                <label for="final">decea enviar formulario </label>
+                <input type="checkbox" id="final" value="enviar"  >
+                <input type="submit" value="enviar">
+            </dt>
+           </tr>
+           <tr>
+            <dt>
+                <label for="escribe"> escribe algun comentario </label>
+                <option value="option"></option>
+                <input type="text" id="escribe" value="escribe" >
+                <input type="submit" value="enviar" maxlength="50">
+            </dt>
+           </tr>
+           <tr>
+            <dt>
+                <label for="correo">escribe tu correo</label>
+                <input type="email" id="correo" placeholder="correo">
+                <input type="submit" value="enviar">
+            </dt>
+           </tr>
+       </tr> 
+
+        </form>
+    </table>
+    </div>
+</body>
+</html>
